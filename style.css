@@ -1,0 +1,96 @@
+
+body{
+    background-color: cornflowerblue;
+    /* color: #ffffff; */
+}
+.card
+{
+    border:1px solid black;
+    width:320px;
+    background-image:url('./sunny_day.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.header
+{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.city
+{
+    /* border:2px solid red; */
+    line-height: 3px;
+}
+
+.city h3
+{
+    /* border:1px solid red; */
+    font-size: xx-large;
+    
+}
+.temp
+{
+    /* border:1px solid red; */
+    font-size: 40px;
+    border-bottom:2px dashed white; 
+}
+.sutation
+{
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+.future
+{   
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+.extra
+{   
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+.search
+{
+
+   width:320px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2rem;
+    
+    
+    /* border:2px solid black; */
+    
+}
+.search input
+{
+    border:2px solid black;
+  
+    
+    height: 30px;
+    width:200px;
+    border-radius: 5px;
+}
+.search button
+{
+    border:none;
+    background-color: rgb(93, 107, 238);
+    height:40px;
+    padding: 15px;
+    border-radius: 18px;
+    outline: none;
+    letter-spacing: 1px;
+}
+.search button:hover{
+    background-color: tomato;
+}
+
